@@ -1,5 +1,12 @@
-.sect1 {
+.js-logo{
+	height: 70px;
+	float: right;
+	padding-right: 100px;
+}
+
+.babyBG {
 	background: url(../images/baby_bg1.jpg);
-	width: 100%;
+	width: auto;
+	height: 1000px;
 
 }
