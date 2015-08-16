@@ -20,7 +20,7 @@
 			<div class="hamburger"></div>
 			<div class="hamburger"></div>
 		</div>
-		<div class="menu-title"><h3>JuiceyStuff</h3></div>
+		<div class="menu-title"><h3>02921 259222</h3></div>
 	</div>
 </a>
 
@@ -47,21 +47,64 @@
 
 <body>
 
-	<div class="header" data-uk-parallax="{bg: -100,}">
+	<div class="header">
+
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-margin-large-top uk-align-center">
+				<div class="uk-width-1-1">
+					<a href="#"><img src="images/logo_2015.svg" class="js-logo" alt="Juiceystuff Logo" align="center"></a>				
+				</div>
+			</div>
+		</div>	
+
 		<div class="uk-container uk-container-center">
 			<div class="beautiful" data-uk-parallax="{opacity: 0, y: 100}">
-				<h1>stunning.</h1>	
-				<h2 align="center">beautifully crafted web development</h2>
+				<h1>beautiful.</h1>	
+				<h2 align="center">stunningly crafted web development</h2>
 				<button class="uk-button uk-margin-large-top" type="button">learn more</button>
 			</div>
 		</div>	
-			
-		<div class="section1">
-			<div class="uk-container uk-container-center">
-				<h2>Development &amp Design that's<br />just out of this world...</h2>	
-				<i class="uk-icon-large uk-icon-rocket" id="rocket"></i>	
+	</div>
+	
+
+	<div class="section1">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-margin-large-top">
+				<div class="uk-width-1-1">
+					<h2>Better digital solutions</h2>
+				</div>
 			</div>
-		</div>	
+
+			<div class="uk-grid">
+				<div class="uk-width-1-3">
+				...
+				</div>
+			
+				<div class="uk-width-1-3">
+				...
+				</div>
+
+				<div class="uk-width-1-3">
+					<div class="right-panel">
+						<p>Enagaging with our clients, providing a partnership that remains solid through the
+						products <br>and services we offer along side out 7 step approach in how we offer them.</p>
+						<p>Based in Cwmbran near Newport, we work closely with clients both locally <br>and nationwide.
+						We offer successful digital solutions that deliver amazing business results</p>
+						<p>Creative and passionate about delivering cutting edge designs for your website, online marketing and branding</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-grid>">
+				<div class="uk-width-1-1">
+					<p>Enagaging with our clients, providing a partnership that remains solid through the
+					products <br>and services we offer along side out 7 step approach in how we offer them.</p>
+					<p>Based in Cwmbran near Newport, we work closely with clients both locally <br>and nationwide.
+					We offer successful digital solutions that deliver amazing business results</p>
+					<p>Creative and passionate about delivering cutting edge designs for your website, online marketing and branding</p>
+				</div>
+			</div>
+		</div>
 	</div>	
 	
 
@@ -87,29 +130,5 @@
   
  });
 </script>
-
-
-<!-- Script for parallax scrolling -->
-//<script>
-//	(function(){
-//
-//  var parallax = document.querySelectorAll(".parallax"),
-//      speed = 0.5;
-//
-//  window.onscroll = function(){
-//    [].slice.call(parallax).forEach(function(el,i){
-//
-//      var windowYOffset = window.pageYOffset,
-//          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-//
-//      el.style.backgroundPosition = elBackgrounPos;
-//
-//   });
-//  };
-//
-//})();
-//</script>
-
-
 </body>
 </html>

@@ -1,14 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Khula:700,400);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 
 .js-logo{
-	height: 50px;
-	float: left;
+	height: 90px;
 }
 
 .header {
 	background-image: url(../images/earth.jpg);
-	height: 1800px;
+	height: 800px;
 
 }
 
@@ -33,15 +33,11 @@
 
 .section1 {
 	width: 100%;
-	height: auto;
-	background-color: #DDD;
-	margin-top: 300px;
+	height: 400px;
+	background-color: #fff;
+	margin-top: 0px;
 }
 
-.section1 #rocket {
-	font-size: 15em;
-	text-align: right;
-}
 
 .section1 h1 {
 	font-family: 'Khula', sans-serif;
@@ -50,13 +46,48 @@
 	text-align: left;
 	margin-top: 100px;
 	text-transform: uppercase;
+	padding-top: 50px;
 }
 
 .section1 h2 {
 	font-family: 'Khula', sans-serif;
-	font-size: 4em;
+	font-size: 3em;
+	font-weight: 400;
 	text-align: center;
 	color: #000;
+}
+
+.section1 h3 {
+	font-family: 'Khula', sans-serif;
+	font-size: 2em;
+	font-weight: 400;
+	text-align: center;
+	color: #000;	
+}
+
+.section1 p {
+	font-family: 'Khula', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-align: center;
+	color: #000;	
+}
+
+.section1 .js-logo{
+	height: 50px;
+}
+
+.section1 hr {
+	width: 250px;
+	line-height: 1em;
+	text-align: center;
+}
+
+.section1 .right-panel {
+	width: 300px;
+	height: 500px;
+	padding: 10px, 5px, 10px, 5px;
+	background-color: #DDD;
 }
 
 
